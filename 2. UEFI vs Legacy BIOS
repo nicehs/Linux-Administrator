@@ -1,0 +1,24 @@
+### 2. UEFI vs Legacy BIOS
+
+BIOS là gì?
+- BIOS là phần trung gian giữa hareware và OS.
+- BIOS sẽ có nhiệm vụ kiểm tra phần cứng, các kết nối với thiết bị ngoại vi tìm kiếm các drive chứa boot loader.
+- BIOS sẽ được mặc định lưu trên ERROM khi máy được sản xuất
+
+BIOS hoạt động như nào?
+- Khi bật nút nguồn các thiết bị phần cứng sẽ khởi động. CPU bắt đầu quá trình excute code của BIOS trong ERROM
+- Tiếp theo, BIOS khởi động chương trình POST nhằm check phần cứng và các kết nối thiết bị ngoại vi.
+- Sau khi quá trình kiểm tra hoàn tất và không xảy ra lỗi, BIOS bắt đầu chu kỳ tìm kiếm MBR trên các drive
+- MBR được tìm thấy sẽ load đoạn code chứa boot loader (ví dụ như GRUB)
+- Boot loader tiếp tuc load kernel và các chương tình thiết lập ban đầu để khởi động OS
+
+UEFI là gì?
+- Cũng là chương trình firmware giống BIOS khác ở chỗ UEFI sẽ tạo ra 1 vùng partition đặc biệt (ESP) dùng để chứ thông tin
+- Các thông tin của UEFI sẽ được lưu lại trong file .efi. Phân vùng đặc biệt này cũng đảm nhiệm làm boot loader
+
+UEFI Feature:
+- Mặc định sử dụng GPT làm quản lý phân vùng nên có thể quản lý drive <2T
+- Hỗ trợ kết nối internet để remote mà không cần thông qua OS
+- Với phân vùng ESP thì UEFI có thể giảm thiểu quá trình boot
+- Thêm tính năng "Secure Boot" giúp tránh khởi động các chương trình không mong muốn.
+- 
