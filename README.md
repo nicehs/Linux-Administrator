@@ -5,3 +5,5 @@
 * [2. UEFI vs Legacy BIOS](https://github.com/nicehs/Linux-Administrator/blob/main/2.%20UEFI%20vs%20Legacy%20BIOS.md)
 * [3. GRUB](https://github.com/nicehs/Linux-Administrator/blob/main/3.%20GRUB.md)
 * [4. Systemd](https://github.com/nicehs/Linux-Administrator/blob/main/4.%20Systemd.md)
+**II. System**
+* ](https://github.com/nicehs/Linux-Administrator/blob/main/5.%20Journald.md)
