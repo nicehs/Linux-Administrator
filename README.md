@@ -6,4 +6,4 @@
 * [3. GRUB](https://github.com/nicehs/Linux-Administrator/blob/main/3.%20GRUB.md)
 * [4. Systemd](https://github.com/nicehs/Linux-Administrator/blob/main/4.%20Systemd.md)
 **II. System**
-* ](https://github.com/nicehs/Linux-Administrator/blob/main/5.%20Journald.md)
+* [5. Journald](https://github.com/nicehs/Linux-Administrator/blob/main/5.%20Journald.md)
