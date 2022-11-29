@@ -9,7 +9,7 @@
 **II. System**
 * [5. Journald](https://github.com/nicehs/Linux-Administrator/blob/main/5.%20Journald.md)
 * [6. Basic Networking](https://github.com/nicehs/Linux-Administrator/blob/main/6.%20Basic%20Networking.md)
-* [7. FUSE] (https://github.com/nicehs/Linux-Administrator/blob/main/7.%20FUSE.md)
+* [7. FUSE](https://github.com/nicehs/Linux-Administrator/blob/main/7.%20FUSE.md)
 * [8. Managing kernel module](https://github.com/nicehs/Linux-Administrator/blob/main/8.%20Managing%20kernel%20module.md)
 * [9. Dynamic kernel with udev](https://github.com/nicehs/Linux-Administrator/blob/main/9.%20Dynamic%20kernel%20management%20with%20udev.md)
 
