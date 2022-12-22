@@ -17,3 +17,4 @@
 * [10. SSL](https://github.com/nicehs/Linux-Administrator/blob/main/10.%20SSL.md)
 * [11. Nginx(LEMP)](https://github.com/nicehs/Linux-Administrator/blob/main/11.%20Nginx%20(LEMP).md)
 * [12. Apache](https://github.com/nicehs/Linux-Administrator/blob/main/12.%20Apache.md)
+* [13. HAproxy](https://github.com/nicehs/Linux-Administrator/blob/main/13.%20HAproxy.md)
